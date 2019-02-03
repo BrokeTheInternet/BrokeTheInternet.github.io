@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+li {
+    float: right;
+    border-right:1px solid #bbb;
+}
+  
+li a {
+    display: inline-block;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.top-bar {
+    background-color: #4aaaa5;
+    border: #cccccc;
+    
+}
+
+#fixed {
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 24px;
+    text-align: center;
+    position: fixed;
+    color: white;
+    padding: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    top: 0;
+    left: 330px;
+    display: block;
+    z-index: 1;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+#content {
+    background-color: #ffffff;
+    border: #dddddd;
+}
+
+h1 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    border-bottom:2px solid #bbb;
+    padding: 20px;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    border-bottom:2px solid #bbb;
+    padding: 20px;
+}
+
+p {
+    padding: 20px;
+}
+
+#profile-img {
+    width: 200px; 
+    height: 200px;
+    padding: 20px;
+    float: left;
+}
+
+#apple-img {
+    width: 350px; 
+    height: 200px;
+    padding: 20px;
+}
+
+#android-img{
+    width: 250px; 
+    height: 200px;
+    padding: 20px;
+}
+
+#coding-img,
+#group-img,
+#personal-img   {
+    width: 300px; 
+    height: 200px;
+    padding: 20px;
+}
+
+.desc {
+    padding: 10px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    width: 300px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=sms], select {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+div {
+    border-radius: 0px;
+    padding: 20px;
+}
+
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 20px;
+    cursor: pointer;
+}
+
+#bottom-line {
+    background-color: #4aaaa5;
+    position: relative;
+    padding: 0;
+    margin: 0%;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+    
+}
+
+#foot {
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    margin: 0;
+    bottom: 0;
+    padding: 10px;
+    z-index: 2;
+}
+
