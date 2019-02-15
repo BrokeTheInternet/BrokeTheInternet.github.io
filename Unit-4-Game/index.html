@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <title>Planetary Collector!</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <link rel="stylesheet" type="text/css" media="" href="assets/css/style.css">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Planet Collector!</h1>
+
+    <br><br>
+
+    <div class="instructions">
+        <p>
+            You wil be given a random number at the start of each game that you will have to match.
+        </p>
+        <p>
+            There are 4 planets below. By clicking on a planet, you will add a specific amount of points to your total score.
+        </p>
+        <p>
+            You win the game by matching your total score to the random number; but you lose the game if your total score surpasses the random number.
+        </p>
+        <p>
+            Each planet has a hidden value ranging from 1-12. You can figure each planet's value by clicking on them. Each planet will reset in value if you win/lose the game!
+        </p>
+        <p>
+            Good Luck!
+        </p>
+    </div>
+
+    <br><br>
+
+    <p id="result"></p>
+
+    <br><br><br><br>
+
+    <div class="planets"></div>
+
+    <br><br>
+
+    <div class="wins-losses">
+        <p id="wins">Wins: </p>
+        <p id="losses">Losses: </p>
+    </div>
+    
+    <p id="previous">Your total score: </p>
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
