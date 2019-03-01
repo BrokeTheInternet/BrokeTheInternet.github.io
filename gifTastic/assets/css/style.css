@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'good_morningregular';
+    font-family: 'GoodMorning';
     src: url('assets/fonts/GoodMorning.woff2') format('woff2'),
          url('assets/fonts/GoodMorning.woff') format('woff');
     font-weight: normal;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-    font-family: 'angrybirdsregular';
+    font-family: 'angrybirds-regular';
     src: url('assets/fonts/angrybirds-regular.woff2') format('woff2'),
          url('assets/fonts/angrybirds-regular.woff') format('woff');
     font-weight: normal;
@@ -21,7 +21,7 @@ body{
 }
 
 h1{
-	font-family: "good_morningregular";
+	font-family: "GoodMorning";
 	font-size: 90px;
 	margin-top: 3vh;
 	margin-bottom: 1vh;
@@ -34,7 +34,7 @@ h1{
 }
 
 .btn{
-	font-family: "angrybirdsregular";
+	font-family: "angrybirds-regular";
 	font-size: 16px;
 	background-color: #684906;
 	color: white;
