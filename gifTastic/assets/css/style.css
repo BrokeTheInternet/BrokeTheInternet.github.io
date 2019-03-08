@@ -1,0 +1,81 @@
+body{
+	background: url("../images/background1.jpg") no-repeat center center fixed;
+	background-size: cover;
+
+}
+
+h1{
+	font-family: "Comic Sans MS";
+	font-size: 90px;
+	margin-top: 3vh;
+	margin-bottom: 1vh;
+	color: white;
+}
+
+.row{
+	margin-bottom: 4vh;
+	margin-left: 3vw;
+	margin-right: 3vw;
+}
+
+.btn{
+	font-family: "Comic Sans MS";
+	font-size: 16px;
+	background-color: #684906;
+	color: white;
+	padding: 1vh 1vw;
+}
+
+.btn:hover{
+    color: #dfa103;
+}
+
+.btn:focus{
+	outline: 2px solid white !important;
+	background-color: #684906;
+	color: #dfa103;
+}
+
+.video-button{
+	margin: .5vh 1vw;
+}
+
+.dotted-border{
+    border: 6px solid #684906;
+    /* border-radius: 5px; */
+}
+
+.comic-sans-font{
+	font-family: "Comic Sans MS";
+	font-size: 24px;
+	font-weight: 800;
+    color: #684906;
+    border: #684906;
+}
+
+.gif-image{
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+.individual-gif-container{
+	float: left;
+	margin: 2vh 3vw 2vh 3vw;
+}
+
+#submit{
+	margin-top: 1.5vh;
+}
+
+#video-game{
+	margin-top: 1.5vh;
+	width: 100%;
+}
+
+#video-game:focus{
+	outline: 2px solid #684906 !important;
+}
+
+#gif-container{
+	font-size: 22px;
+}
