@@ -1,3 +1,5 @@
+@import url("reset.css");
+
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 18px;
@@ -65,8 +67,8 @@ border-bottom: 2px solid #cccccc;
 
 #logo {
 float: left;
-width: 250px;
-height: 90px;
+width: 50px;
+height: 70px;
 font-family: Georgia, Times, "Times New Roman", serif;
 font-size: 30px;
 font-weight: 700;
@@ -74,7 +76,8 @@ line-height: 90px;
 color: #ffffff;
 text-align: center;
 text-decoration: none;
-background: #4aaaa5;
+/* background: #4aaaa5; */
+box-shadow: #666666;
 }
 
 nav {
@@ -214,4 +217,88 @@ color: #ffffff;
 cursor: pointer;
 background: #4aaaa5;
 border: 0 none;
+}
+
+@media only screen and (max-width:980px) {
+  nav {
+    margin-right: 5px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .main-section,
+  .sidebar {
+    max-width: 100%;
+  }
+
+  main {
+    overflow: auto;
+  }
+
+  .work {
+    /* Box-model */
+    width: 47%;
+
+    /* Positioning */
+    margin-bottom: 10px;
+  }
+
+  .work:nth-child(even) {
+    margin-right: 0;
+  }
+
+  .work:nth-child(odd) {
+    float: right;
+  }
+
+  .auth-image {
+    width: 50%;
+  }
+
+  .sidebar {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 640px){
+  #masthead {
+    /* Positioning */
+    position: static;
+    margin-bottom: 20px;
+  }
+
+  header .container {
+    padding: 0;
+  }
+
+  main.container {
+    padding-top: 0;
+  }
+
+  #logo,
+  .work,
+  .auth-image {
+    width: 100%;
+  }
+
+  nav {
+    /* Box-model */
+    width: 100%;
+
+    /* Positioning */
+    margin: 15px 0;
+
+    /* Typography */
+    text-align: center;
+  }
+
+  nav a {
+    /* Box-model */
+    width: 30%;
+    padding-left: 0;
+
+    /* Positioning */
+    margin-left: 0;
+  }
 }

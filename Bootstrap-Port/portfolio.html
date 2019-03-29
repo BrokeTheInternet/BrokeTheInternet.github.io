@@ -1,82 +1,110 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
 
-    <meta charset="UTC-8">
-    <title>Portfolio | Brandon Otero</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Portfolio | Brandon Otero</title>
+
+  <!-- Boostrap Stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- Our own CSS stylesheet -->
+  <link rel="stylesheet" href="assets/css/styles.css" media="screen">
 
 </head>
 
-<body style="background-image: url('assets/images/background1.png'); font-size: 18px; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;">
-
-    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
-        <div class="container" style="width: 960px;">
-            <a class="navbar-brand text-white" style="background-color: #4aaaa5; font-family: Georgia, Times, 'Times New Roman', serif; font-size: 30px; font-weight: 700;" href="index.html" id="">Brandon Otero</a>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                    <a class="nav-item nav-link" href="contact.html">Contact</a>
-                </div>
-            </div>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
-            </form>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <a class="navbar-brand" href="index.html" id="logo">
+            <img src="assets/icons/home.svg" height="25px" width="25px">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li>
+                    <a href="https://www.linkedin.com/in/brandon-otero-7891539a" target="blank">
+                        <img src="assets/icons/linkedin.svg" height="25px" width="25px" style="margin-top: 10px; margin-left: 10px">
+                    </a>
+                    </li>
+                    <li>
+                    <a href="https://github.com/BrokeTheInternet" target="blank">
+                        <img src="assets/icons/github.svg" height="25px" width="25px" style="margin-top: 10px; margin-left: 10px">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.slideshare.net/slideshow/embed_code/key/6IfGXTHC3Rb9YB" target="blank">Resume</a>
+                </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+            </li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
         </div>
-    </nav>
+        <!-- /.container -->
+      </nav>
+      <!-- End of navbar -->
 
-    <br><br>
-
-    <div class="container text-secondary bg-white" style="width: 960px; height: 1000px;">
-        <div class="row" style="border-bottom: 3px solid #dddddd;">
-            <div class="col-sm-4">
-            <h1 style="color:#4aaaa5; font-family: Georgia, Times, 'Times New Roman', serif; font-size: 30px; line-height: 49px;  padding-bottom: 20px; font-weight: 700;">Portfolio</h1>
+  <!-- Start of container -->
+  <div class="container">
+    <main class="row">
+      <div class="col-md-8">
+        <article class="block">
+          <h1 class="block-header">Portfolio</h1>
+          <hr />
+          <div class="row">
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid port-image" src="assets/images/apple.png" alt="Apple">
             </div>
-        </div>
-
-        <br>
-        
-        <div class="container" style="width: 960px;">
-            <div class="row">
-                <div class="col-sm-4;">
-                    <img src="assets/images/apple.png" style="width: 350px; height: 200px;" alt="Apple">
-                    <h3 style="background-color: #4aaaa5; color: white; text-align: center; bottom: 20px; width: 100%; padding: 15px; margin-bottom: 0; font-weight: 300;line-height: 30px;">iOS Apps</h3>
-                </div>
-                <div class="col-sm-4">
-                    <img src="assets/images/android.jpg" style="width: 300px; height: 200px;" alt="Android">
-                    <h3 style="background-color: #4aaaa5; color: white; text-align: center; bottom: 20px; width: 100%; padding: 15px; margin-bottom: 0; font-weight: 300;line-height: 30px;">Android Apps</h3>
-                </div>
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid port-image" src="assets/images/android.jpg" alt="Android">
             </div>
-            <br>
-            <div class="row">
-                <div class="col-sm-4">
-                    <img src="assets/images/coding.jpg" style="width: 290px; height: 200px;" alt="Coding">
-                    <h3 style="background-color: #4aaaa5; color: white; text-align: center; bottom: 20px; width: 100%; padding: 15px; margin-bottom: 0; font-weight: 300;line-height: 30px;">Coding Background</h3>
-                </div>
-                <div class="col-sm-4">
-                    <img src="assets/images/groupProject.png" style="width: 290px; height: 200px;" alt="Group">
-                    <h3 style="background-color: #4aaaa5; color: white; text-align: center; bottom: 20px; width: 100%; padding: 15px; margin-bottom: 0; font-weight: 300;line-height: 30px;">Group Projects</h3>
-                </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid port-image" src="assets/images/coding.jpg" alt="Coding">
             </div>
-            <br>
-            <div class="row">
-                <div class="col-sm-4">
-                    <img src="assets/images/personalProject.jpg" style="width: 290px; height: 200px;" alt="Persoanl">
-                    <h3 style="background-color: #4aaaa5; color: white; text-align: center; bottom: 20px; width: 100%; padding: 15px; margin-bottom: 0; font-weight: 300;line-height: 30px;">Persoanl Projects</h3>
-                </div>
+            <div class="col-sm-6 col-md-12 col-lg-6">
+                <img class="img-fluid port-image" src="assets/images/personalProject.jpg" alt="Personal">
             </div>
-        </div>
-    </div>
+          </div>
+          </div>
+        </article>
+      </div>
+    </main>
+  </div>
+  <!-- End of container -->
 
-    <br><br>
+  <!-- Start of footer -->
+  <footer class="footer">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-white text-muted-footer text-center">
+      &copy; Copyright 2018
+    </p>
+  </footer>
+  <!-- End of footer -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark text-white" style="background-color: #666666; border-top: 8px solid #4aaaa5;">
-        <div class="container" style="width: auto;">
-            <a class="navbar-brand" style="font-size: 12px;">Copyright &copy;</a>
-        </div>
-    </nav>
-   
+  <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script></script>
+
 </body>
+
 </html>
