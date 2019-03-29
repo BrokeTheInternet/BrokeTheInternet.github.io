@@ -1,3 +1,22 @@
+<<<<<<< HEAD
+=======
+@font-face {
+    font-family: 'GoodMorning';
+    src: url('assets/fonts/GoodMorning.woff2') format('woff2'),
+         url('assets/fonts/GoodMorning.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'angrybirds-regular';
+    src: url('assets/fonts/angrybirds-regular.woff2') format('woff2'),
+         url('assets/fonts/angrybirds-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+>>>>>>> e787c12f93eeec672422c94a9da35de60795a775
 body{
 	background: url("../images/background1.jpg") no-repeat center center fixed;
 	background-size: cover;
@@ -5,11 +24,18 @@ body{
 }
 
 h1{
+<<<<<<< HEAD
 	font-family: "Comic Sans MS";
 	font-size: 90px;
 	margin-top: 3vh;
 	margin-bottom: 1vh;
 	color: white;
+=======
+	font-family: "GoodMorning";
+	font-size: 90px;
+	margin-top: 3vh;
+	margin-bottom: 1vh;
+>>>>>>> e787c12f93eeec672422c94a9da35de60795a775
 }
 
 .row{
@@ -19,7 +45,11 @@ h1{
 }
 
 .btn{
+<<<<<<< HEAD
 	font-family: "Comic Sans MS";
+=======
+	font-family: "angrybirds-regular";
+>>>>>>> e787c12f93eeec672422c94a9da35de60795a775
 	font-size: 16px;
 	background-color: #684906;
 	color: white;
@@ -36,6 +66,7 @@ h1{
 	color: #dfa103;
 }
 
+<<<<<<< HEAD
 .video-button{
 	margin: .5vh 1vw;
 }
@@ -43,14 +74,27 @@ h1{
 .dotted-border{
     border: 6px solid #684906;
     /* border-radius: 5px; */
+=======
+.game-button{
+	margin: .5vh 1vw;
+}
+
+.border{
+    border: 6px solid #684906;
+    border-radius: 5px;
+>>>>>>> e787c12f93eeec672422c94a9da35de60795a775
 }
 
 .comic-sans-font{
 	font-family: "Comic Sans MS";
 	font-size: 24px;
 	font-weight: 800;
+<<<<<<< HEAD
     color: #684906;
     border: #684906;
+=======
+	color: #684906;
+>>>>>>> e787c12f93eeec672422c94a9da35de60795a775
 }
 
 .gif-image{
@@ -78,4 +122,8 @@ h1{
 
 #gif-container{
 	font-size: 22px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> e787c12f93eeec672422c94a9da35de60795a775

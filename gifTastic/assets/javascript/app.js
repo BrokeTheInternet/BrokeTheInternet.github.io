@@ -2,14 +2,20 @@ var topics = ["Halo", "CoD", "Pokemon", "Runescape", "World of Warcraft",
 "CS Go", "Rocket League", "League of Legends", "Fortnite", "PUBG",
 "Battlefield", "Rainbow Six Siege", "Destiny", "Fallout", "Zelda",
 "Super Mario", "Tomb Raider", "Grand Theft Auto"];
+<<<<<<< HEAD
 var numberOfGIFs = 10;
 var cutOffRating = "";
 
+=======
+var limit = 10;
+var rating = "";
+>>>>>>> e787c12f93eeec672422c94a9da35de60795a775
 
 function renderButtons(){
 	for(var i = 0; i < topics.length; i++) {
 		var newButton = $("<button>");
 		newButton.addClass("btn");
+<<<<<<< HEAD
 		newButton.addClass("video-button");
 		newButton.text(topics[i]);
 		$("#button-container").append(newButton);
@@ -21,6 +27,19 @@ function renderButtons(){
 		$("#gif-container").empty();
 		$("#gif-container").removeClass("dotted-border");
 		populateGIFContainer($(this).text());
+=======
+		newButton.addClass("game-button");
+		newButton.text(topics[i]);
+		$("#button-container").append(newButton);
+	}
+	$(".game-button").unbind("click");
+
+	$(".game-button").on("click", function(){
+		$(".gif-image").unbind("click");
+		$("#gif-container").empty();
+		$("#gif-container").removeClass("border");
+		generateGIF($(this).text());
+>>>>>>> e787c12f93eeec672422c94a9da35de60795a775
 	});
 
 }
@@ -33,10 +52,17 @@ function addButton(game){
 	}
 }
 
+<<<<<<< HEAD
 function populateGIFContainer(game){
 	$.ajax({
 		url: "https://api.giphy.com/v1/gifs/search?q=" + game + 
 		"&api_key=61TKqzUDPHfv40Bqr6iEsqqBCfa360mt&rating=" + cutOffRating + "&limit=" + numberOfGIFs,
+=======
+function generateGIF(game){
+	$.ajax({
+		url: "https://api.giphy.com/v1/gifs/search?q=" + game + 
+		"&api_key=6dIJwSDW192UvdU09wiWnGsYeSaGFF4S&rating=" + rating + "&limit=" + limit,
+>>>>>>> e787c12f93eeec672422c94a9da35de60795a775
 		method: "GET"
 	}).then(function(response){
 		response.data.forEach(function(element){
@@ -52,7 +78,11 @@ function populateGIFContainer(game){
 			$("#gif-container").append(newDiv);
 		});
 		
+<<<<<<< HEAD
 		$("#gif-container").addClass("dotted-border");
+=======
+		$("#gif-container").addClass("border");
+>>>>>>> e787c12f93eeec672422c94a9da35de60795a775
 		$(".gif-image").unbind("click");
 		$(".gif-image").on("click", function(){
 			if($(this).attr("state") === "still") {
