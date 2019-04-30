@@ -45,7 +45,11 @@ main {
   color: #fff;
 
   /* Visual */
+<<<<<<< HEAD
   background: #4aaaa5;
+=======
+  /* background: #4aaaa5; */
+>>>>>>> b0538df71e3938bc5e007e566f0b7080a30a8d3c
 }
 
 /* override bootstrap hover color and border */
